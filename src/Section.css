@@ -1,0 +1,25 @@
+h2{
+    font-family: batfont;
+    font-size: 50px;
+    text-decoration: underline;
+    padding: 20px;
+}
+
+.sectionTable{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    padding: 20px;
+    background-color: #a6a2a1;
+    border-radius: 30px;
+    border-spacing: 12px;
+}
+
+.tiletd{
+    width: 20%;
+    padding: 10px;
+    vertical-align: top;
+    background-color: #706d6d;
+    border-radius: 10px;
+}

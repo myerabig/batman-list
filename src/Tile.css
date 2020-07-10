@@ -1,0 +1,20 @@
+*{
+    color: yellow;
+}
+
+h3{
+    font-family: gotham-nights;
+    font-size: 26px;
+}
+
+.Tile{
+    display: inline;
+}
+
+.show-poster{
+    height: 200px;
+}
+
+.show-poster:hover{
+    cursor: pointer;
+}

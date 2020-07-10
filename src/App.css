@@ -1,38 +1,35 @@
-.App {
+@font-face {
+  font-family: batman-forever;
+  src: url(assets/fonts/batmfa__.ttf);
+}
+@font-face {
+  font-family: batfont;
+  src: url(assets/fonts/Batfont-e9mm.ttf);
+}
+@font-face {
+  font-family: gotham-nights;
+  src: url(assets/fonts/GothamNights-e49g.ttf);
+}
+
+*{
+  font-family: batman-forever;
+}
+
+body{
+  background-color: black;
+}
+
+h1{
   text-align: center;
+  color: yellow;
+  display: inline;
+  font-size: 55px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title-img{
+  height: 40px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#title-div{
+  text-align: center;
 }
